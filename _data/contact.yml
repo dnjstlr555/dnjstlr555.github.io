@@ -13,6 +13,11 @@
 - type: rss
   icon: "fas fa-rss"
   noblank: true
+
+- type: scholar
+  icon: "fas fa-graduation-cap"
+  noblank: true
+  url: 'https://scholar.google.com/citations?user=kJv4LEAAAAAJ'
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
