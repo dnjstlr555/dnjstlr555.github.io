@@ -4,6 +4,7 @@ title: >-
   (2015)
 categories:
   - Papers
+  - Cognitive Science
 tags:
   - bci
 ---

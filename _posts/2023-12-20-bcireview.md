@@ -2,6 +2,7 @@
 title: 'Progress in Brain Computer Interface: Challenges and Opportunities (2021)'
 categories:
   - Papers
+  - Cognitive Science
 tags:
   - bci
 ---

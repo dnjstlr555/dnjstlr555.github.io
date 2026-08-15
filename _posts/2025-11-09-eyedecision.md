@@ -2,6 +2,7 @@
 title: 'Eye Movements as a Window into Decision-Making (2022)'
 categories:
   - Papers
+  - Cognitive Science
 tags:
   - bci
 ---

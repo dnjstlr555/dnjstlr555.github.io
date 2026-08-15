@@ -4,6 +4,7 @@ title: >-
   Using EEG (2019)
 categories:
   - Papers
+  - Cognitive Science
 tags:
   - bci
 ---
