@@ -1,14 +1,17 @@
 ---
 title: >-
-  Estimating Cognitive Workload in an Interactive Virtual Reality Environment
-  Using EEG (2019)
+  [논문 리뷰] Estimating Cognitive Workload in an Interactive Virtual Reality
+  Environment Using EEG (2019)
 categories:
   - Papers
   - Cognitive Science
 tags:
   - bci
+date: '2024-01-10'
 ---
-![post-thumbnail](https://velog.velcdn.com/images/dnjstlr555/post/b2009061-1ed2-4e65-b9c9-434a15f4a191/image.jpg)
+
+![post-thumbnail](/assets/img/posts/2024-01-10-bciworkload/image.jpg)
+_post-thumbnail_
 
 VR 환경 내에서 N-back Task를 수행하여 EEG 신호로 0-back, 1-back, 2-back 과제를 푸는지 맞추는 연구 입니다.
 
@@ -25,19 +28,23 @@ VR 환경 내에서 N-back Task를 수행하여 EEG 신호로 0-back, 1-back, 2-
 
 ## 실험 조건
 
-15명이 참여하였으며 멀미 민감 자가 설문과 색맹 테스트를 완료하였습니다. 사용한 장비는 HTC Vive였으며 전극에 전해질 젤을 바른 EEG 모자를 착용하였고 그 위에 VR 장비를 착용한 상태로 실험을 수행하였습니다. 컨트롤러는 주로 사용하는 손 한쪽만 사용하였습니다.  
-![](https://velog.velcdn.com/images/dnjstlr555/post/188d9950-38c3-41e6-b773-70ce8ce8e901/image.png)
+15명이 참여하였으며 멀미 민감 자가 설문과 색맹 테스트를 완료하였습니다. 사용한 장비는 HTC Vive였으며 전극에 전해질 젤을 바른 EEG 모자를 착용하였고 그 위에 VR 장비를 착용한 상태로 실험을 수행하였습니다. 컨트롤러는 주로 사용하는 손 한쪽만 사용하였습니다.
+
+![](/assets/img/posts/2024-01-10-bciworkload/image.png)
 
 ## 게임 환경
 
-![](https://velog.velcdn.com/images/dnjstlr555/post/20b94933-0402-4729-905b-e6baf1ae7c4b/image.png)  
-게임은 N번째 전의 구 색깔을 기억하고 이와 일치하는 구가 나타날 경우 이를 직접 들어 특정 통에다 넣고 아니면 반대쪽 통에 넣는 방식으로 이루어졌습니다. 공의 색깔은 5가지 색만을 사용하였습니다.  
-![](https://velog.velcdn.com/images/dnjstlr555/post/5a28ff0f-221b-4c69-b033-ec55e7e0acd2/image.png)  
+![](/assets/img/posts/2024-01-10-bciworkload/image-1.png)
+
+게임은 N번째 전의 구 색깔을 기억하고 이와 일치하는 구가 나타날 경우 이를 직접 들어 특정 통에다 넣고 아니면 반대쪽 통에 넣는 방식으로 이루어졌습니다. 공의 색깔은 5가지 색만을 사용하였습니다.
+
+![](/assets/img/posts/2024-01-10-bciworkload/image-2.png)
+
 실험 구성은 다음 그림과 같습니다. 0-ball은 공이 빨간색인지 아닌지를 구별하는 세션이었습니다. 참가자는 각 세션별로 20개의 구를 처리했으며 4초의 시간 제한을 뒀습니다. 타겟 구는 최소 2개 이상 나타날 수 있게 설정하였고 n-back 선택은 환자별로 치우쳐지지 않게끔 하였습니다.
 
 ## 데이터 수집
 
-![](https://velog.velcdn.com/images/dnjstlr555/post/14b42d1d-283b-4dde-9cc3-973fda3c0193/image.jpg)
+![](/assets/img/posts/2024-01-10-bciworkload/image-1.jpg)
 
 EEG의 8채널을 수집하였고 (G.Ladybird/256Hz) 각 채널 사이 Bipolar Reference\*을 적용하여 피부 근육 긴장도에 의해 발생되는것으로 추정되는 고주파 활동 영역의 상관관계를 최소화 하였습니다. 또한 Hampel 필터(1초 Window, 5표준편차 기준)를 적용하여 불안정한 시그널을 제거하였습니다.  
 \*Reference - EEG를 측정할때 측정 과정에서 필연적으로 발생할 수 밖에 없는 노이즈들을 최소화 하기 위해 뇌 활동과 관련이 없는 다른 전극과 비교하는것. Unipolar 기법과 Non-Unipolar 기법이 있는데 Bipolar Reference는 Non-unipolar 방법으로 맞붙어있는 두 전극간의 평균값을 사용하여 노이즈를 필터링 하는것 ([https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6592976/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6592976/) 그리고 [https://bdsquaredblog.wordpress.com/2016/07/27/eeg-스터디-1-erp-recording의-기초-원리/](https://bdsquaredblog.wordpress.com/2016/07/27/eeg-스터디-1-erp-recording의-기초-원리/))
@@ -51,35 +58,45 @@ EEG 신호의 진동 스펙트럼은 Welch's Method를 통해 256 포인트 단�
 
 ## 검증 결과
 
-Task 자체에 대한 참여자의 정확도는 0-back, 1-back, 2-back 순으로 각각 99%, 98%, 95%이었습니다.  
-![](https://velog.velcdn.com/images/dnjstlr555/post/f5927f1a-378a-4d10-bbf3-cbfe74a76cd5/image.png)  
+Task 자체에 대한 참여자의 정확도는 0-back, 1-back, 2-back 순으로 각각 99%, 98%, 95%이었습니다.
+
+![](/assets/img/posts/2024-01-10-bciworkload/image-3.png)
+
 왼쪽 그래프는 손의 위치를 Task 난이도 별로 나타낸 것인데 난이도별로 차이가 없음이 보입니다.  
 오른쪽 그래프는 이러한 손의 위치와 난이도간 R Square 상관 관계를 구한것인데 0에 근접하였습니다.  
-따라서 난이도별 손 동작 움직임의 차이가 없어 난이도별 EEG 특징도 움직임에 의한 구분되는 차이점이 없을 것이라 예상해볼 수 있습니다.  
-![](https://velog.velcdn.com/images/dnjstlr555/post/31962e92-f0f7-4dd9-8ce4-ccfb6b97e696/image.png)  
+따라서 난이도별 손 동작 움직임의 차이가 없어 난이도별 EEG 특징도 움직임에 의한 구분되는 차이점이 없을 것이라 예상해볼 수 있습니다.
+
+![](/assets/img/posts/2024-01-10-bciworkload/image-4.png)
+
 각 채널과 주파수 대역별 n-back Task와의 Spearman 상관관계를 나타낸 지표입니다. 참가자별로 4겹 교차 검증을 진행해 평균을 구한 결과입니다. 고주파수 영역의 활동을 바탕으로 필터링 한 경우에는 뒤에 \*이 붙었습니다.  
 보면 머리 앞쪽보다 뒷쪽 채널들의 상관계수가 더 안정적으로 높은것을 볼 수 있습니다.  
 또 선형회귀를 통한 고주파수 대역 활동 필터링을 적용한 \* 특징들의 경우 전반적으로 계수가 낮아진 것을 확인할 수 있었습니다.
 
-![](https://velog.velcdn.com/images/dnjstlr555/post/50c605e4-b7b7-4f06-9251-82257c61fe1c/image.jpg)  
+![](/assets/img/posts/2024-01-10-bciworkload/image-2.jpg)
+
 참가자별 난이도에 따른 평균 진폭을 Log를 취하여 나타낸 그래프입니다. 참가자별로 채널이나 진폭의 변화가 일정하지 않음을 확인할 수 있었습니다.
 
-![](https://velog.velcdn.com/images/dnjstlr555/post/53a12d4a-9321-42c8-9340-59a4f298cafc/image.jpg)  
+![](/assets/img/posts/2024-01-10-bciworkload/image-3.jpg)
+
 n=0과 n=2의 난이도 사이에 진폭의 상관관계가 있는지에 대한 여부를 채널 단위로 조사한 Wilcoxon rank sum test의 결과입니다. 하얀색에 가까울수록 상관관계가 있습니다. 마찬가지로 \*이 붙은 변수는 고주파수대 활동을 제거한 변수들인데 상관성이 떨어지는 모습이 보입니다.
 
 또한 가장 상관 관계가 높았던 것은 머리 앞쪽에 위치한 F3-Fz 채널의 고주파수 영역대였습니다.  
 고주파수 영역이 EEG의 활동 대역이 아님을 생각하면 직접적인 '인지 부하'가 아닌 난이도로 인해 생성되는 긴장, 근육 활성도등등 기타 부가적인 요소들이 구분되는 고주파수 특징을 만든다고 추측해 볼 수 있습니다.
 
-![](https://velog.velcdn.com/images/dnjstlr555/post/a5d1ae05-e01f-4aa6-8dd4-e84229c77ac7/image.jpg)  
+![](/assets/img/posts/2024-01-10-bciworkload/image-4.jpg)
+
 본격적인 분류 결과입니다. 한가지 변수만을 사용해서 환자별 4겹 교차 검증을 통해 측정한 분류 평균 정확도 입니다. 비록 고주파수 영역의 활동이 필터 됐다 해도 랜덤 선택보다 나은 어느정도 유의미한 정확도를 기록한것이 보입니다.
 
-![](https://velog.velcdn.com/images/dnjstlr555/post/46afbd16-daae-4e97-b13d-77602541bd2b/image.jpg)  
+![](/assets/img/posts/2024-01-10-bciworkload/image-5.jpg)
+
 이번에는 2개의 변수를 사용해 분류 모델을 학습시킨 결과입니다. 아까 Wilcoxon rank sum 결과에서 어느정도 관계가 있었던 세타, 베타, 감마를 사용한 결과입니다.
 
-![](https://velog.velcdn.com/images/dnjstlr555/post/db84c2a9-4a65-42af-9b72-e187940060ec/image.jpg)  
+![](/assets/img/posts/2024-01-10-bciworkload/image-6.jpg)
+
 그래프로 결과를 정리했을때는 다음과 같았습니다. 0back/1back, 0back/2back와 달리 1back과 2back의 난이도 차이를 구분하는 과제에서 그래프가 살짝 내려가는것이 보입니다.
 
-![](https://velog.velcdn.com/images/dnjstlr555/post/5d0e0dc9-b9c2-4e16-8be5-c71d90fea3c7/image.jpg)  
+![](/assets/img/posts/2024-01-10-bciworkload/image-7.jpg)
+
 채널별 분류 결과입니다. 앞쪽의 정확도가 높았고 고주파수 활동의 효과는 F3-Fz, P3-Pz, Pz-P4에서 가장 높았습니다.  
 아까 한개의 변수만을 사용해서 상관관계를 구했을때는 뒷쪽의 채널들이 안정적이고 높았지만 이런 상반된 결과는 앞쪽에 다변수를 사용해야만 보이는 뇌파의 패턴이 존재했을 수 있다고 생각해 볼 수 있었습니다.
 
@@ -95,7 +112,7 @@ n=0과 n=2의 난이도 사이에 진폭의 상관관계가 있는지에 대한 
 
 참가자간 다양성 또한 고려 요소중 하나였는데 성능 지표에는 나오지 않았지만 15겹 교차 검증(14명의 데이터로 학습후 남은 1명을 대상으로 테스트)의 경우 성능이 랜덤 선택보다 살짝 높은 정도였습니다.
 
-![](https://velog.velcdn.com/images/dnjstlr555/post/ce048ef7-f8ec-45fd-bdf2-be2dec44f6ab/image.jpg)
+![](/assets/img/posts/2024-01-10-bciworkload/image-8.jpg)
 
 EMG의 영향을 줄이기 위한 선형 회귀의 방법도 재고 해볼 필요가 있었습니다. EMG와 다른 저주파수 채널간에 **선형 관계**가 존재한다는 가정으로 적용하였기 때문에 여전히 EMG의 영향이 남아 있을 수 있고, 고주파수 EMG 활동이 과제의 난이도와 상관관계가 높아 EMG 활동과 관계 없는 EEG 활동 또한 제거 되었을 수 있다 추론하였습니다. 다만 이 둘의 효과가 서로 상쇄작용을 일으켜 결과적으로는 목적에 맞는 EEG 신호를 얻었을 것이라 추측하였습니다.
 

@@ -6,8 +6,8 @@ tags:
   - policy-learning
 date: '2026-07-16'
 title: >-
-  A Comprehensive Survey of Cross-Domain Policy Transfer for Embodied Agents
-  (2024)
+  [논문 리뷰] A Comprehensive Survey of Cross-Domain Policy Transfer for Embodied
+  Agents (2024)
 ---
 
 [원본 보기](https://arxiv.org/abs/2402.04580)
@@ -37,12 +37,14 @@ robotics의 AI 기술은 많은 데이터를 필요로 한다. 하지만 보통 
 appearance gaps : source domain과 target domain간 observation의 조건이 다른 상태 (색깔, 배경 물체, 렌더링 방법, 해상도등)
 
 ![](/assets/img/posts/2026-07-16-crossdomain-transfer/image.png)
-__
+
+\_\_
 
 시뮬레이션 → Real world image 변환 (cyclegan) \[2020\]
 
 ![](/assets/img/posts/2026-07-16-crossdomain-transfer/image-1.png)
-__
+
+\_\_
 
 시뮬레이션/현실 segmentation으로 통합 \[2022\]
 

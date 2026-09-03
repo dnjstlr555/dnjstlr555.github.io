@@ -5,8 +5,8 @@ categories:
 tags:
   - bci
 title: >-
-  Comparing Recognition Performance and Robustness of Multimodal Deep Learning
-  Models for Multimodal Emotion Recognition (2021)
+  [논문 리뷰] Comparing Recognition Performance and Robustness of Multimodal Deep
+  Learning Models for Multimodal Emotion Recognition (2021)
 date: '2026-08-19'
 math: true
 ---
@@ -23,7 +23,7 @@ math: true
 
 ## Related Work
 
-**전통적인 멀티모달 퓨전 방법론**의 경우 early fusion, late fusion, hybrid fusion이 있습니다. 
+**전통적인 멀티모달 퓨전 방법론**의 경우 early fusion, late fusion, hybrid fusion이 있습니다.
 
 early fusion은 특징간의 상관관계를 일찍 확인하고 둘간의 관계성을 활용할 수 있다는 장점이 있지만 차원이 증가하기 때문에 과적합의 위험이 높다는 단점이 있습니다.
 
@@ -39,7 +39,7 @@ hybrid는 early와 late을 둘다 도입한 방법론을 의미하고, 일부 �
 
 ### DCCA
 
-각 모달리티 별 표현 $O_1, O_2$를 다음과 같이 정의하겠습니다. 
+각 모달리티 별 표현 $O*1, O*2$를 다음과 같이 정의하겠습니다. 
 
 $$
 O_1=f_1(X_1;W_1), O_2=f_2(X_2;W_2)
@@ -78,7 +78,8 @@ EEG 특징의 경우 4s window STFT를 통해 differential entropy를 5개의 �
 ### Seed-V 데이터셋에 대한 결과
 
 ![](/assets/img/posts/2026-08-19-emotion-recognition-dcca/image-5.png)
-__
+
+\_\_
 
 Grid search 결과, 가로줄은 출력 차원이고 세로줄은 EEG feature의 가중치 (EEG+EYE = 1)를 의미합니다.
 
@@ -141,6 +142,7 @@ EEG의 일부를 노이즈로 대체하였을때 방법론에 따라 성능 하�
 ![](/assets/img/posts/2026-08-19-emotion-recognition-dcca/image-20.png)
 
 ![](/assets/img/posts/2026-08-19-emotion-recognition-dcca/image-21.png)
-__
+
+\_\_
 
 동일한 실험을 다른 데이터셋에서도 진행했을때 강건한 성능을 얻을 수 있었습니다.
