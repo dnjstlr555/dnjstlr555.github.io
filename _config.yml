@@ -16,10 +16,10 @@ timezone: Asia/Seoul
 
 title: Won-Sik Oh # the main title
 
-tagline: Something will be learned # it will display as the subtitle
+tagline: AI로 글 작성 안함! # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A blog about programming, data science, and more.
+  A blog about programming, data science, and more. AI is not used for writing posts.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
