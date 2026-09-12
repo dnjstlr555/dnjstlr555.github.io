@@ -21,6 +21,9 @@ tags: []
 
 ## 연구
 
+Efficient Graph 3D Convolution Network for Interpretable Cross-subject Rehabilitation Assessment
+: Under Review (Preprint at SSRN)
+
 Large Language Models in Adverse Drug Reaction Detection and Pharmacovigilance: A Systematic Review of Current Applications, Challenges, and Future Directions
 : MDPI Diagnostics (2026/08/01)
 
@@ -65,42 +68,34 @@ Brain LAB. @ CUK AI
 
 ### ML/DL
 
-### [https://github.com/dnjstlr555/Unity-Looxidlink-SRanipal-Recorder](https://github.com/dnjstlr555/Unity-Looxidlink-SRanipal-Recorder) (Python/C#, 2022)
+#### [https://github.com/dnjstlr555/Unity-Looxidlink-SRanipal-Recorder](https://github.com/dnjstlr555/Unity-Looxidlink-SRanipal-Recorder) (Python/C#, 2022)
 
 룩시드링크(EEG 데이터)와 시선 추적 데이터 수집 및 통합 후 JSON 변환
 
-### [https://github.com/dnjstlr555/CountryWideTopics](https://github.com/dnjstlr555/CountryWideTopics) (Python, 2022)
-
-뉴스 수집, 키워드 추출, 기사 분석 및 추천 시스템(doc2vec)
-
-### [https://github.com/dnjstlr555/iPose](https://github.com/dnjstlr555/iPose) (Python, 2022)
-
-OpenPose와 오토인코더를 결합한 포즈 분석 및 임베딩 시스템
-
 ### Web
 
-### [https://github.com/dnjstlr555/CatLibGo](https://github.com/dnjstlr555/CatLibGo) (Javascript, 2023)
+#### [https://github.com/dnjstlr555/CatLibGo](https://github.com/dnjstlr555/CatLibGo) (Javascript, 2023)
 
 가톨릭대학교 도서관 프록시로 현재 페이지 전환
 
-### [https://github.com/dnjstlr555/gurotimes](https://github.com/dnjstlr555/gurotimes) (Node.js, 2020)
+#### [https://github.com/dnjstlr555/gurotimes](https://github.com/dnjstlr555/gurotimes) (Node.js, 2020)
 
 수정가능한 게시판
 
-### [https://github.com/dnjstlr555/Anta-API](https://github.com/dnjstlr555/Anta-API) (Node.js, 2018~2024)
+#### [https://github.com/dnjstlr555/Anta-API](https://github.com/dnjstlr555/Anta-API) (Node.js, 2018~2024)
 
 원격으로 컴퓨터의 영상, 음악을 재생하고 사진 확인, 파일 다운로드가 가능한 웹 인터페이스
 
 ### Game
 
-### [Jamming Session](https://dnjstlr555.itch.io/jamming-session) (GMS, 2019)
+#### [Jamming Session](https://dnjstlr555.itch.io/jamming-session) (GMS, 2019)
 
 악기를 연주해 버스킹을 해서 돈을 버는 게임
 
-### [https://github.com/SNUGifted1/py-muse-keypress](https://github.com/SNUGifted1/py-muse-keypress) (Python, 2017)
+#### [https://github.com/SNUGifted1/py-muse-keypress](https://github.com/SNUGifted1/py-muse-keypress) (Python, 2017)
 
 Muse(EEG)로 지오메트리 대쉬 플레이
 
-### [https://github.com/yugecin/osukps](https://github.com/yugecin/osukps) (C#, 2016)
+#### [https://github.com/yugecin/osukps](https://github.com/yugecin/osukps) (C#, 2016)
 
 내가 얼마나 빨리 치고 있는지 확인하는 리듬게임 미터기
