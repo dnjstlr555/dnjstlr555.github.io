@@ -24,7 +24,7 @@ math: true
 - 목표 image/video conditioning
   - 위 두 방법론보다 general하지만 학습이 어렵고 실제 inference시 사용이 어려움
 
-특히 저자들은 예시를 하나 들면서 기존 conditioning 방식의 문제점을 제기합니다. 
+특히 저자들은 예시를 하나 들면서 기존 conditioning 방식의 문제점을 제기합니다.
 
 > 물체를 줍는 명령이나, 빨래를 개는 명령이나 하는 행동은 모션 상에서는 비슷하지만 자연어 임베딩이 다른데, 그렇다면 이것은 로봇 policy에게 있어 '새로운 task'로 간주되지 않을까?
 
@@ -58,13 +58,13 @@ Trajectory는 탑뷰 시점에서 바라봤을때를 projection 해서 여러 �
 상호작용 마커는 (b)로, gripper가 object를 잡고 필때의 시점을 threshold로 계산해서 해당 위치를 초록색과 파란색 (닫을때 초록색, 열릴때 파란색)으로 표시합니다. 구체적으로는 다음과 같은 수식으로 열고 닫는 event를 검출합니다.
 
 $$
-\delta_t = \^p_t - p_t
+\delta_t = \hat{p}_t - p_t
 $$
 
 이때 ^p\_t는 원하는 그리퍼 값, p\_t는 현재 실제 세계의 그리퍼 값입니다.
 
 $$
-(\delta_t&lt;0 \space {OR} \space \^p_t &lt; \epsilon ) \space {AND}\space (\delta_{t+1}&gt;0\space{AND}\space\^p_{t+1}&gt;\epsilon)
+(\delta_t&lt;0 \text{ OR } \hat{p}_t&lt;\epsilon) \text{ AND } (\delta_{t+1}&gt;0 \text{ AND } \hat{p}_{t+1}&gt;\epsilon)
 $$
 
 해당 식의 첫번째 항은 명령보다 더 벌어졌거나 OR 애초에 닫으라는 명령이 없는 상황. 두번째 항은 명령보다 덜 닫혔고 AND 닫으라는 명령이 내려진 상태. 이 두가지의 t시점을 알면 t시점이 닫으려고 명령하는 시점임을 확인할 수 있고, 이걸 그대로 반대로 역전시키면 열라고 명령하는 시점 또한 구할 수 있습니다.
