@@ -51,8 +51,6 @@ _Overview_
 
 ### Trajectory
 
-![](/assets/img/posts/2026-09-14-rt-trajectory/image-1.png)
-
 Trajectory는 탑뷰 시점에서 바라봤을때를 projection 해서 여러 요소와 함께 구성됩니다.
 
 상호작용 마커는 (b)로, gripper가 object를 잡고 필때의 시점을 threshold로 계산해서 해당 위치를 초록색과 파란색 (닫을때 초록색, 열릴때 파란색)으로 표시합니다. 구체적으로는 다음과 같은 수식으로 열고 닫는 event를 검출합니다.
@@ -64,7 +62,7 @@ $$
 이때 ^p\_t는 원하는 그리퍼 값, p\_t는 현재 실제 세계의 그리퍼 값입니다.
 
 $$
-(\delta_t &lt;0 \text{ OR } \hat{p}&lt;\epsilon) \text{ AND } (\delta_{t+1}&gt;0 \text{ AND } \hat{p}_{t+1}&gt;\epsilon)
+(\delta_t \lt 0 \text{ OR } \hat{p} \lt \epsilon) \text{ AND } (\delta_{t+1} \gt 0 \text{ AND } \hat{p}_{t+1} \gt \epsilon)
 $$
 
 해당 식의 첫번째 항은 명령보다 더 벌어졌거나 OR 애초에 닫으라는 명령이 없는 상황. 두번째 항은 명령보다 덜 닫혔고 AND 닫으라는 명령이 내려진 상태. 이 두가지의 t시점을 알면 t시점이 닫으려고 명령하는 시점임을 확인할 수 있고, 이걸 그대로 반대로 역전시키면 열라고 명령하는 시점 또한 구할 수 있습니다.
@@ -107,7 +105,7 @@ baseline은 RT-1, RT-2, RT-1-Goal (image goal) 이었습니다.
 
 Task 성공률은 다음과 같습니다. RT-Traj (2.5D)가 제일 좋은 성공률을 보였습니다.
 
-![](/assets/img/posts/2026-09-14-rt-trajectory/image.png)
+![](/assets/img/posts/2026-09-14-rt-trajectory/image-6.png)
 
 다음은 trajectory의 특성상 어떤 방식으로든 로봇의 경로를 그리기만 하면 policy가 될 수 있는 특성을 통해, 사람의 손 동작을 기준으로 수행하거나 LLM의 동작 코딩 기능을 통해 trajectory를 만들었을때의 policy 성공률을 나타낸 것 입니다. 사람의 동작을 모방할때는 RT-Trajectory가 좋았으나 LLM 프롬프팅에서는 크게 다르지 않은 결과를 보였습니다.
 
