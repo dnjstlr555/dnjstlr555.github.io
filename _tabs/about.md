@@ -24,6 +24,9 @@ tags: []
 Efficient Graph 3D Convolution Network for Interpretable Cross-subject Rehabilitation Assessment
 : Under Review (Preprint at SSRN)
 
+Subject-Aware Contrastive Alignment of Speech and Text for Depression Detection
+: 2026 IEEE-EMBS International Conference on Biomedical and Health Informatics - Abstracts (2026/12/14)
+
 Large Language Models in Adverse Drug Reaction Detection and Pharmacovigilance: A Systematic Review of Current Applications, Challenges, and Future Directions
 : MDPI Diagnostics (2026/08/01)
 
@@ -41,7 +44,7 @@ Multi-Task EEGNet-TCN Decoder of Motor Imagery and Cognitive State in Motor Imag
 ### 인턴
 
 NMAIL @ KAIST
-: 2026/07~
+: 2026/07~2026/09
 
 MAILAB @ Korea Univ.
 : 2025/12~2026/02
@@ -54,7 +57,7 @@ Brain LAB. @ CUK AI
 ### 학부생
 
 @ CUK AI
-: 2021/02~
+: 2021/02~2027/02
 
 ### 과학영재교육원 정보분과
 
