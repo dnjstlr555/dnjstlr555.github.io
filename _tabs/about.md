@@ -13,9 +13,9 @@ I’m Wonsik Oh, an undergraduate student in the Department of Artificial Intell
 
 📧 dodow@catholic.ac.kr
 
-👾 [github.com/dnjstlr555](http://github.com/dnjstlr555)
+👾 [github.com/dnjstlr555](https://github.com/dnjstlr555)
 
-🧑‍🔬 [scholar.google.com/citations?user=kJv4LEAAAAAJ](http://scholar.google.com/citations?user=kJv4LEAAAAAJ)
+🧑‍🔬 [scholar.google.com/citations?user=kJv4LEAAAAAJ](https://scholar.google.com/citations?user=kJv4LEAAAAAJ)
 
 ## Research Experience
 
@@ -84,5 +84,3 @@ Py-muse-keypress (Python, 2017)
 
 Osukps (C#, 2016)
 : A rhythm game meter that shows how fast you’re tapping
-
-###
