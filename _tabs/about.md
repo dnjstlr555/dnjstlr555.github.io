@@ -5,21 +5,38 @@ categories: []
 tags: []
 ---
 
-> 저는 21년부터 인공지능학과에 재학중인 오원식입니다. BCI와 Robotics에 관심이 있습니다. 
+## Introduction
 
-## 연락처
+I’m Wonsik Oh, an undergraduate student in the Department of Artificial Intelligence since 2021. I’m interested in Brain-Computer Interfaces (BCI) and Robotics.
 
 📧 dnjstlr555@gmail.com
 
-📧 [dodow@catholic.ac.kr](mailto:dodow@catholic.ac.kr)
+📧 dodow@catholic.ac.kr
 
-[👾 github.com/dnjstlr555](https://github.com/dnjstlr555)
+👾 [github.com/dnjstlr555](http://github.com/dnjstlr555)
 
-[💯 velog.io/@dnjstlr555](https://velog.io/@dnjstlr555/)
+🧑‍🔬 [scholar.google.com/citations?user=kJv4LEAAAAAJ](http://scholar.google.com/citations?user=kJv4LEAAAAAJ)
 
-🧑‍🔬[scholar.google.com/citations?user=kJv4LEAAAAAJ](https://scholar.google.com/citations?user=kJv4LEAAAAAJ&hl=ko)
+## Research Experience
 
-## 연구
+- **POSTECH**, Research Intern, Prof. Sang-Woo Mo (MOAI Lab) - 2026/10 ~ (ongoing)
+
+- **KAIST**, Research Intern, Prof. Sung-Ho Jo (NMAIL) - 2026/07 ~ 2026/09
+- **Korea Univ.**, Research Intern, Prof. Tae-Eui Kam (MAILAB) - 2025/12 ~ 2026/02
+- **CUK**, Undergraduate Researcher, Prof. Dong-Hwa Jeong (Brain Lab) - 2021/12 ~ (ongoing)
+
+## Education
+
+The Catholic University of Korea, B.S. in Artificial Intelligence 
+: 2021/03 ~ (2027/02)
+
+SNU Gifted Science Education Center, Computer Science Division
+: 2016/03~2018/02
+
+Seoul National Univ. of Edu. Gifted Science Education Center, Computer Science Division
+: 2012/03~2013/01
+
+## Publications
 
 Efficient Graph 3D Convolution Network for Interpretable Cross-subject Rehabilitation Assessment
 : Under Review (Preprint at SSRN)
@@ -39,66 +56,33 @@ Multi-Task EEGNet-TCN Decoder of Motor Imagery and Cognitive State in Motor Imag
 문서 임베딩 및 키워드 추출을 통한 신문기사 추천 및 큐레이션 시스템
 : 한국스마트미디어학회 2022 학술대회 (2022/06/23)
 
-## 교육
-
-### 인턴
-
-NMAIL @ KAIST
-: 2026/07~2026/09
-
-MAILAB @ Korea Univ.
-: 2025/12~2026/02
-
-### 학부 연구
-
-Brain LAB. @ CUK AI
-: 2021/12~
-
-### 학부생
-
-@ CUK AI
-: 2021/02~2027/02
-
-### 과학영재교육원 정보분과
-
-@ Seoul National Univ.
-: 2016/03/01~2018/02/01
-
-@ Seoul National Univ. of Edu.
-: 2012/03~2013/01
-
-## 프로젝트
+## Projects
 
 ### ML/DL
 
-#### [https://github.com/dnjstlr555/Unity-Looxidlink-SRanipal-Recorder](https://github.com/dnjstlr555/Unity-Looxidlink-SRanipal-Recorder) (Python/C#, 2022)
-
-룩시드링크(EEG 데이터)와 시선 추적 데이터 수집 및 통합 후 JSON 변환
+Unity-Looxidlink-SRanipal-Recorder (Python/C#, 2022)
+: Collected and integrated EEG data from LooxidLink with eye-tracking data, then converted it to JSON
 
 ### Web
 
-#### [https://github.com/dnjstlr555/CatLibGo](https://github.com/dnjstlr555/CatLibGo) (Javascript, 2023)
+CatLibGo (Javascript, 2023)
+: Redirects the current page through the Catholic University of Korea library proxy
 
-가톨릭대학교 도서관 프록시로 현재 페이지 전환
+Gurotimes (Node.js, 2020)
+: Editable bulletin board, implemented from scratch
 
-#### [https://github.com/dnjstlr555/gurotimes](https://github.com/dnjstlr555/gurotimes) (Node.js, 2020)
-
-수정가능한 게시판
-
-#### [https://github.com/dnjstlr555/Anta-API](https://github.com/dnjstlr555/Anta-API) (Node.js, 2018~2024)
-
-원격으로 컴퓨터의 영상, 음악을 재생하고 사진 확인, 파일 다운로드가 가능한 웹 인터페이스
+Anta-API (Node.js, 2018~2024)
+: A web interface for remotely playing videos and music, viewing photos, and downloading files from a computer
 
 ### Game
 
-#### [Jamming Session](https://dnjstlr555.itch.io/jamming-session) (GMS, 2019)
+Jamming Session (GMS, 2019)
+: A game where you play instruments and busk to earn money
 
-악기를 연주해 버스킹을 해서 돈을 버는 게임
+Py-muse-keypress (Python, 2017)
+: Playing Geometry Dash with Muse (EEG)
 
-#### [https://github.com/SNUGifted1/py-muse-keypress](https://github.com/SNUGifted1/py-muse-keypress) (Python, 2017)
+Osukps (C#, 2016)
+: A rhythm game meter that shows how fast you’re tapping
 
-Muse(EEG)로 지오메트리 대쉬 플레이
-
-#### [https://github.com/yugecin/osukps](https://github.com/yugecin/osukps) (C#, 2016)
-
-내가 얼마나 빨리 치고 있는지 확인하는 리듬게임 미터기
+###
