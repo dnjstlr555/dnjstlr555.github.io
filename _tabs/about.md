@@ -19,15 +19,14 @@ I’m Wonsik Oh, an undergraduate student in the Department of Artificial Intell
 
 ## Research Experience
 
-- **POSTECH**, Research Intern, Prof. Sang-Woo Mo (MOAI Lab) - 2026/10 ~ (ongoing)
-
+- **POSTECH**, Research Intern, Prof. Sang-Woo Mo ([MOAI Lab](https://moai.postech.ac.kr/)) - 2026/10 ~ (ongoing)
 - **KAIST**, Research Intern, Prof. Sung-Ho Jo (NMAIL) - 2026/07 ~ 2026/09
 - **Korea Univ.**, Research Intern, Prof. Tae-Eui Kam (MAILAB) - 2025/12 ~ 2026/02
-- **CUK**, Undergraduate Researcher, Prof. Dong-Hwa Jeong (Brain Lab) - 2021/12 ~ (ongoing)
+- **CUK**, Undergraduate Researcher, Prof. Dong-Hwa Jeong ([Brain Lab](https://sites.google.com/view/cukbrain)) - 2021/12 ~ (ongoing)
 
 ## Education
 
-The Catholic University of Korea, B.S. in Artificial Intelligence 
+The Catholic University of Korea, B.S. in Artificial Intelligence
 : 2021/03 ~ (2027/02)
 
 SNU Gifted Science Education Center, Computer Science Division
